@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "on-primary": "#690006",
+        "inverse-primary": "#c00015",
+        "on-secondary-fixed-variant": "#920311",
+        "surface-dim": "#131313",
+        "primary-fixed": "#ffdad6",
+        "tertiary-container": "#737474",
+        "error": "#ffb4ab",
+        "error-container": "#93000a",
+        "on-surface-variant": "#e7bdb8",
+        "on-tertiary-fixed": "#1a1c1c",
+        "primary": "#ffb4ac",
+        "on-tertiary-container": "#fcfbfb",
+        "on-background": "#e5e2e1",
+        "surface-container-high": "#2a2a2a",
+        "tertiary-fixed-dim": "#c6c6c6",
+        "surface-container-lowest": "#0e0e0e",
+        "pure-white": "#FFFFFF",
+        "on-tertiary-fixed-variant": "#464747",
+        "on-primary-container": "#fffafa",
+        "cola-brown": "#32120D",
+        "on-primary-fixed": "#410002",
+        "tertiary-fixed": "#e3e2e2",
+        "inverse-on-surface": "#313030",
+        "tertiary": "#c6c6c6",
+        "on-error-container": "#ffdad6",
+        "outline-variant": "#5d3f3c",
+        "background": "#131313",
+        "surface-container-low": "#1c1b1b",
+        "on-secondary": "#680008",
+        "on-secondary-container": "#ff9e96",
+        "surface-bright": "#3a3939",
+        "surface-container-highest": "#353534",
+        "on-error": "#690005",
+        "on-secondary-fixed": "#410003",
+        "surface-container": "#201f1f",
+        "secondary-fixed": "#ffdad6",
+        "surface-variant": "#353534",
+        "outline": "#ae8883",
+        "secondary-fixed-dim": "#ffb3ac",
+        "on-tertiary": "#2f3131",
+        "on-surface": "#e5e2e1",
+        "inverse-surface": "#e5e2e1",
+        "secondary": "#ffb3ac",
+        "charcoal": "#151515",
+        "primary-container": "#e41b23",
+        "primary-fixed-dim": "#ffb4ac",
+        "on-primary-fixed-variant": "#93000d",
+        "surface": "#131313",
+        "surface-tint": "#ffb4ac",
+        "secondary-container": "#960613"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      "spacing": {
+        "space-lg": "1.5rem",
+        "space-xs": "0.25rem",
+        "gutter": "1.5rem",
+        "space-xl": "2.5rem",
+        "gutter-mobile": "1rem",
+        "margin": "3rem",
+        "space-sm": "0.5rem",
+        "space-md": "1rem",
+        "margin-mobile": "1.25rem"
+      },
+      "fontFamily": {
+        "display-xl": [
+          "Bebas Neue"
+        ],
+        "display-xl-mobile": [
+          "Bebas Neue"
+        ],
+        "headline-lg": [
+          "Bebas Neue"
+        ],
+        "label-sm": [
+          "Manrope"
+        ],
+        "headline-sm": [
+          "Bebas Neue"
+        ],
+        "body-lg": [
+          "Manrope"
+        ],
+        "mono-metric": [
+          "Manrope"
+        ],
+        "headline-md": [
+          "Bebas Neue"
+        ],
+        "body-md": [
+          "Manrope"
+        ],
+        "body-sm": [
+          "Manrope"
+        ],
+        "label-md": [
+          "Manrope"
+        ],
+        "headline-lg-mobile": [
+          "Bebas Neue"
+        ]
+      },
+      "fontSize": {
+        "display-xl": [
+          "96px",
+          {
+            "lineHeight": "96px",
+            "letterSpacing": "0.04em",
+            "fontWeight": "400"
+          }
+        ],
+        "display-xl-mobile": [
+          "56px",
+          {
+            "lineHeight": "58px",
+            "letterSpacing": "0.03em",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg": [
+          "56px",
+          {
+            "lineHeight": "60px",
+            "letterSpacing": "0.03em",
+            "fontWeight": "400"
+          }
+        ],
+        "label-sm": [
+          "11px",
+          {
+            "lineHeight": "14px",
+            "letterSpacing": "0.1em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-sm": [
+          "24px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "400"
+          }
+        ],
+        "body-lg": [
+          "18px",
+          {
+            "lineHeight": "28px",
+            "fontWeight": "400"
+          }
+        ],
+        "mono-metric": [
+          "14px",
+          {
+            "lineHeight": "18px",
+            "letterSpacing": "0.05em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-md": [
+          "32px",
+          {
+            "lineHeight": "36px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "400"
+          }
+        ],
+        "body-md": [
+          "15px",
+          {
+            "lineHeight": "24px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "13px",
+          {
+            "lineHeight": "20px",
+            "fontWeight": "400"
+          }
+        ],
+        "label-md": [
+          "12px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-lg-mobile": [
+          "36px",
+          {
+            "lineHeight": "40px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "400"
+          }
+        ]
+      }
+    }
+  }
+}</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-charcoal/80 backdrop-blur-xl shadow-[0_12px_36px_rgba(0,0,0,0.6)]"><div class="h-20 w-full px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-sm focus:outline-none" data-path="home" href="#"><img alt="Coca-Cola Classic Script Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U8hbI0svt7-kBdpFYpk58zMftl7UH-o9nVT3hx5D3oFwQqDgtXBlXgkNTDgjp6k_A-yWAHFvQ6DAcW4yKnmeKJx4NwmhRqfBiWyiXfv3QTVcZUPSWPmCRig4n8f3KZ-YL2BlMDHjDzpAGjFF8md6qlJikguTfHSe_gZmfcjduZif6emItoUIHu_e67qU2bi_7jEfG1tkxhvESjdkEOZD0ZGfZW4lSwezNKzCYCSWw4"/><span class="hidden xl:inline-block font-headline-sm text-headline-sm text-pure-white tracking-widest uppercase pl-space-xs">Original Taste</span></a></div><nav class="hidden 2xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_16px_rgba(228,27,35,0.4)]"><a aria-current="page" class="px-space-sm py-space-xs uppercase tracking-wider transition-colors bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_16px_rgba(228,27,35,0.4)]" data-path="home" href="#">Home</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="product-experience" href="#">Product Experience</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="ingredients-nutrition" href="#">Ingredients &amp; Nutrition</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="our-story" href="#">Our Story</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="gallery" href="#">Gallery</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="serving-ideas" href="#">Serving Ideas</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="where-to-buy" href="#">Where to Buy</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#">FAQ</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="admin-portal" href="#">Admin Portal</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="hidden md:flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-high/80 text-on-surface-variant font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px] text-primary">public</span><span>India · EN</span></div><button aria-label="Toggle Ambient Sound" class="p-space-xs rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none" type="button"><span class="material-symbols-outlined text-[20px] align-middle">volume_up</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider shadow-[0_0_20px_rgba(228,27,35,0.45)] hover:bg-secondary-container transition-all" data-path="where-to-buy" href="#">Find In Stores</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs shadow-inner"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- CINEMATIC HERO VIEWPORT -->
+<section class="relative w-full min-h-[920px] bg-charcoal overflow-hidden flex flex-col justify-between px-margin-mobile lg:px-margin pt-space-lg pb-space-xl">
+<!-- Atmospheric Ambient Lighting Blooms -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-cola-brown/30 blur-[140px] pointer-events-none rounded-full"></div>
+<div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[580px] h-[580px] bg-primary-container/20 blur-[130px] pointer-events-none rounded-full"></div>
+<div class="absolute bottom-10 right-10 w-96 h-96 bg-cola-brown/40 blur-[120px] pointer-events-none rounded-full"></div>
+<!-- Floating Top Editorial Micro-HUD -->
+<div class="relative z-10 w-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm bg-surface-container-low/80 backdrop-blur-md px-space-md py-space-xs rounded-full shadow-lg">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface">Physical Product Render Pass</span>
+<span class="text-tertiary-container font-mono-metric text-mono-metric">/</span>
+<span class="font-mono-metric text-mono-metric text-primary">v4.8 Studio Spec</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low/80 backdrop-blur-md px-space-sm py-space-xs rounded-full shadow-lg">
+<button class="flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container text-pure-white font-label-sm text-label-sm uppercase tracking-wider transition-all hover:bg-surface-container-high focus:outline-none" id="toggle-condensation">
+<span class="material-symbols-outlined text-[15px] text-primary">water_drop</span>
+<span id="cond-status">Condensation: MAX</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container text-tertiary font-label-sm text-label-sm uppercase tracking-wider transition-all hover:bg-surface-container-high hover:text-pure-white focus:outline-none" id="toggle-ice">
+<span class="material-symbols-outlined text-[15px] text-primary">ac_unit</span>
+<span>Ice Frost: ON</span>
+</button>
+<button class="p-1.5 rounded-full bg-surface-container text-tertiary hover:text-pure-white hover:bg-surface-container-high transition-colors focus:outline-none" id="btn-reset-view" title="Reset Viewport">
+<span class="material-symbols-outlined text-[16px] align-middle">restart_alt</span>
+</button>
+</div>
+</div>
+<!-- Centered Editorial Title & 3D Stage -->
+<div class="relative z-10 w-full my-auto flex flex-col items-center text-center">
+<div class="max-w-4xl mx-auto space-y-space-xs">
+<div class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-[0.25em] text-primary">
+<span class="w-8 h-[1px] bg-primary"></span>
+          Authentic Refreshment • Est. 1886
+          <span class="w-8 h-[1px] bg-primary"></span>
+</div>
+<h1 class="font-display-xl text-display-xl uppercase tracking-wider text-pure-white drop-shadow-[0_12px_28px_rgba(228,27,35,0.35)] leading-none select-none">
+          The Original. The Icon. <br/><span class="text-primary-container">The Experience.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-tertiary max-w-2xl mx-auto pt-space-xs">
+          Experience the unmistakable character of Coca-Cola Original Taste in an immersive 3D product showcase. Crisp carbonation, signature refreshing flavor, chilled to perfection.
+        </p>
+</div>
+<!-- 3D Canvas Container -->
+<div class="relative w-full max-w-5xl h-[620px] mt-space-sm flex items-center justify-center">
+<!-- 3D Custom WebGL Layer -->
+<!-- STITCH_THREEJS_START:ANIMATION_2 class="w-full h-[620px] bg-transparent cursor-grab active:cursor-grabbing" -->
+<div class="w-full h-[620px] bg-transparent cursor-grab active:cursor-grabbing" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_2" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_2');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  // Interactive Three.js 3D Coca-Cola Can & Bottle Showcase with Realistic Shading & Condensation
+const containerEl = container || document.getElementById('threejs-container');
+const width = (containerEl && containerEl.clientWidth) ? containerEl.clientWidth : window.innerWidth;
+const height = (containerEl && containerEl.clientHeight) ? containerEl.clientHeight : (window.innerHeight || 600);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+camera.position.set(0, 0, 8.5);
+
+const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+renderer.setSize(width, height);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.25;
+containerEl.appendChild(renderer.domElement);
+
+// Studio Lighting
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.9);
+scene.add(ambientLight);
+
+const mainRimLight = new THREE.DirectionalLight(0xff2222, 3.5);
+mainRimLight.position.set(5, 5, 4);
+scene.add(mainRimLight);
+
+const fillLight = new THREE.DirectionalLight(0xffffff, 2.2);
+fillLight.position.set(-6, 3, 3);
+scene.add(fillLight);
+
+const topSpotLight = new THREE.PointLight(0xffffff, 3.0, 20);
+topSpotLight.position.set(0, 6, 2);
+scene.add(topSpotLight);
+
+const bottomBounce = new THREE.DirectionalLight(0x32120d, 1.8);
+bottomBounce.position.set(0, -5, -2);
+scene.add(bottomBounce);
+
+// Root Interactive Group
+const productGroup = new THREE.Group();
+scene.add(productGroup);
+
+// Texture Generation for Coca-Cola Can Body
+const canvas = document.createElement('canvas');
+canvas.width = 1024;
+canvas.height = 1024;
+const ctx = canvas.getContext('2d');
+
+// Crimson base with realistic gloss gradient
+const grad = ctx.createLinearGradient(0, 0, 1024, 0);
+grad.addColorStop(0.0, '#b80c14');
+grad.addColorStop(0.2, '#f41f29');
+grad.addColorStop(0.5, '#e41b23');
+grad.addColorStop(0.8, '#c31018');
+grad.addColorStop(1.0, '#9e1018');
+ctx.fillStyle = grad;
+ctx.fillRect(0, 0, 1024, 1024);
+
+// Dynamic White Wave Dynamic Ribbon
+ctx.fillStyle = '#ffffff';
+ctx.beginPath();
+ctx.moveTo(0, 680);
+ctx.bezierCurveTo(300, 740, 700, 600, 1024, 690);
+ctx.lineTo(1024, 730);
+ctx.bezierCurveTo(700, 640, 300, 780, 0, 720);
+ctx.closePath();
+ctx.fill();
+
+// Secondary ribbon accent
+ctx.fillStyle = 'rgba(255,255,255,0.45)';
+ctx.beginPath();
+ctx.moveTo(0, 735);
+ctx.bezierCurveTo(320, 800, 680, 660, 1024, 740);
+ctx.lineTo(1024, 755);
+ctx.bezierCurveTo(680, 675, 320, 815, 0, 750);
+ctx.closePath();
+ctx.fill();
+
+// Classic Typography Branding
+ctx.fillStyle = '#ffffff';
+ctx.font = 'bold italic 130px sans-serif';
+ctx.textAlign = 'center';
+ctx.textBaseline = 'middle';
+ctx.save();
+ctx.translate(512, 470);
+ctx.rotate(-0.06);
+ctx.fillText('Coca-Cola', 0, 0);
+ctx.font = '900 32px sans-serif';
+ctx.letterSpacing = '8px';
+ctx.fillText('ORIGINAL TASTE', 0, 95);
+ctx.restore();
+
+// Nutrition & Packaging badge
+ctx.font = 'bold 20px sans-serif';
+ctx.fillStyle = 'rgba(255,255,255,0.85)';
+ctx.fillText('100% RECYCLABLE • CHILLED REFRESHMENT', 512, 860);
+ctx.fillText('SERVE CHILLED • 44 kcal / 100ml', 512, 895);
+
+const canTexture = new THREE.CanvasTexture(canvas);
+canTexture.anisotropy = 8;
+
+// CAN CYLINDER BODY
+const canHeight = 3.6;
+const canRadius = 1.05;
+const bodyGeo = new THREE.CylinderGeometry(canRadius, canRadius, canHeight, 64, 1, true);
+const bodyMat = new THREE.MeshPhongMaterial({
+  map: canTexture,
+  shininess: 90,
+  specular: 0x666666,
+  reflectivity: 0.8
+});
+const canBody = new THREE.Mesh(bodyGeo, bodyMat);
+productGroup.add(canBody);
+
+// TOP RIM & LID (Aluminum)
+const aluminumMat = new THREE.MeshPhongMaterial({
+  color: 0xdddddd,
+  shininess: 120,
+  specular: 0xffffff
+});
+
+// Chime / neck taper top
+const topNeckGeo = new THREE.CylinderGeometry(0.92, canRadius, 0.28, 64);
+const topNeck = new THREE.Mesh(topNeckGeo, aluminumMat);
+topNeck.position.y = canHeight / 2 + 0.14;
+productGroup.add(topNeck);
+
+// Top Lip Rim
+const topRimGeo = new THREE.TorusGeometry(0.94, 0.05, 16, 64);
+const topRim = new THREE.Mesh(topRimGeo, aluminumMat);
+topRim.rotation.x = Math.PI / 2;
+topRim.position.y = canHeight / 2 + 0.28;
+productGroup.add(topRim);
+
+// Inner Top Lid Plate
+const lidPlateGeo = new THREE.CylinderGeometry(0.90, 0.90, 0.04, 64);
+const lidPlate = new THREE.Mesh(lidPlateGeo, aluminumMat);
+lidPlate.position.y = canHeight / 2 + 0.26;
+productGroup.add(lidPlate);
+
+// Pull Tab
+const tabGroup = new THREE.Group();
+const tabGeo = new THREE.BoxGeometry(0.25, 0.02, 0.45);
+const tabMesh = new THREE.Mesh(tabGeo, aluminumMat);
+tabMesh.position.set(0, 0, 0.15);
+tabGroup.add(tabMesh);
+const tabRing = new THREE.TorusGeometry(0.08, 0.02, 12, 24);
+const tabRingMesh = new THREE.Mesh(tabRing, aluminumMat);
+tabRingMesh.rotation.x = Math.PI / 2;
+tabRingMesh.position.set(0, 0, 0.3);
+tabGroup.add(tabRingMesh);
+tabGroup.position.set(0, canHeight / 2 + 0.29, 0);
+productGroup.add(tabGroup);
+
+// BOTTOM BASE TAPER & INVERTED DOME
+const bottomNeckGeo = new THREE.CylinderGeometry(canRadius, 0.92, 0.25, 64);
+const bottomNeck = new THREE.Mesh(bottomNeckGeo, aluminumMat);
+bottomNeck.position.y = -canHeight / 2 - 0.125;
+productGroup.add(bottomNeck);
+
+const bottomRimGeo = new THREE.TorusGeometry(0.92, 0.05, 16, 64);
+const bottomRim = new THREE.Mesh(bottomRimGeo, aluminumMat);
+bottomRim.rotation.x = Math.PI / 2;
+bottomRim.position.y = -canHeight / 2 - 0.25;
+productGroup.add(bottomRim);
+
+// CONDENSATION WATER DROPLETS
+const dropletMat = new THREE.MeshPhongMaterial({
+  color: 0xffffff,
+  transparent: true,
+  opacity: 0.75,
+  shininess: 140,
+  specular: 0xffffff
+});
+const dropletGroup = new THREE.Group();
+const dropletGeoSmall = new THREE.SphereGeometry(0.035, 12, 12);
+const dropletGeoMed = new THREE.SphereGeometry(0.055, 12, 12);
+const dropletCount = 140;
+
+for (let i = 0; i < dropletCount; i++) {
+  const angle = Math.random() * Math.PI * 2;
+  const y = (Math.random() - 0.5) * (canHeight * 0.95);
+  const geo = Math.random() > 0.35 ? dropletGeoSmall : dropletGeoMed;
+  const drop = new THREE.Mesh(geo, dropletMat);
+  const r = canRadius + 0.02;
+  drop.position.set(Math.cos(angle) * r, y, Math.sin(angle) * r);
+  drop.scale.set(1, 1.4, 0.6);
+  dropletGroup.add(drop);
+}
+productGroup.add(dropletGroup);
+
+// SURROUNDING FLOATING ICE CUBES
+const iceGroup = new THREE.Group();
+const iceMat = new THREE.MeshPhongMaterial({
+  color: 0xebf8ff,
+  transparent: true,
+  opacity: 0.55,
+  shininess: 120,
+  specular: 0xffffff
+});
+const iceCubes = [];
+for (let j = 0; j < 8; j++) {
+  const size = 0.5 + Math.random() * 0.35;
+  const cubeGeo = new THREE.BoxGeometry(size, size, size);
+  const cube = new THREE.Mesh(cubeGeo, iceMat);
+  const theta = (j / 8) * Math.PI * 2 + Math.random() * 0.4;
+  const radius = 2.4 + Math.random() * 1.2;
+  const posY = (Math.random() - 0.5) * 4.0;
+  cube.position.set(Math.cos(theta) * radius, posY, Math.sin(theta) * radius);
+  cube.rotation.set(Math.random() * Math.PI, Math.random() * Math.PI, 0);
+  iceGroup.add(cube);
+  iceCubes.push({
+    mesh: cube,
+    rotX: (Math.random() - 0.5) * 0.012,
+    rotY: (Math.random() - 0.5) * 0.012,
+    floatSpeed: 0.005 + Math.random() * 0.008,
+    startY: posY,
+    offset: Math.random() * Math.PI * 2
+  });
+}
+scene.add(iceGroup);
+
+// FLOATING CARBONATION BUBBLES
+const bubbleCount = 70;
+const bubbleGeo = new THREE.SphereGeometry(0.04, 8, 8);
+const bubbleMat = new THREE.MeshBasicMaterial({
+  color: 0xff8888,
+  transparent: true,
+  opacity: 0.45
+});
+const bubbles = [];
+const bubbleGroup = new THREE.Group();
+for (let b = 0; b < bubbleCount; b++) {
+  const bMesh = new THREE.Mesh(bubbleGeo, bubbleMat);
+  const angle = Math.random() * Math.PI * 2;
+  const dist = 1.2 + Math.random() * 2.8;
+  const y = -4 + Math.random() * 8;
+  bMesh.position.set(Math.cos(angle) * dist, y, Math.sin(angle) * dist);
+  const scale = 0.4 + Math.random() * 1.2;
+  bMesh.scale.set(scale, scale, scale);
+  bubbleGroup.add(bMesh);
+  bubbles.push({
+    mesh: bMesh,
+    speed: 0.015 + Math.random() * 0.03,
+    resetY: -4.5,
+    maxY: 4.5
+  });
+}
+scene.add(bubbleGroup);
+
+// MOUSE & TOUCH INTERACTIVITY
+let isDragging = false;
+let previousMousePosition = { x: 0, y: 0 };
+let targetRotationY = 0.3;
+let targetRotationX = 0.08;
+
+window.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  previousMousePosition = { x: e.clientX, y: e.clientY };
+});
+
+window.addEventListener('mousemove', (e) => {
+  if (isDragging) {
+    const deltaX = e.clientX - previousMousePosition.x;
+    const deltaY = e.clientY - previousMousePosition.y;
+    targetRotationY += deltaX * 0.008;
+    targetRotationX += deltaY * 0.005;
+    targetRotationX = Math.max(-0.4, Math.min(0.4, targetRotationX));
+    previousMousePosition = { x: e.clientX, y: e.clientY };
+  }
+});
+
+window.addEventListener('mouseup', () => { isDragging = false; });
+
+// Touch support
+window.addEventListener('touchstart', (e) => {
+  if (e.touches.length === 1) {
+    isDragging = true;
+    previousMousePosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }
+}, { passive: true });
+
+window.addEventListener('touchmove', (e) => {
+  if (isDragging && e.touches.length === 1) {
+    const deltaX = e.touches[0].clientX - previousMousePosition.x;
+    const deltaY = e.touches[0].clientY - previousMousePosition.y;
+    targetRotationY += deltaX * 0.008;
+    targetRotationX += deltaY * 0.005;
+    previousMousePosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }
+}, { passive: true });
+
+window.addEventListener('touchend', () => { isDragging = false; });
+
+// Expose reset or variant trigger
+window.reset3DCanView = function() {
+  targetRotationX = 0.08;
+  targetRotationY = 0.3;
+};
+
+// Window Resize Handling
+window.addEventListener('resize', () => {
+  if (!containerEl) return;
+  const w = containerEl.clientWidth || window.innerWidth;
+  const h = containerEl.clientHeight || window.innerHeight || 600;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+});
+
+// Animation Loop
+let clock = new THREE.Clock();
+
+function animate() {
+  requestAnimationFrame(animate);
+  const elapsedTime = clock.getElapsedTime();
+
+  // Gentle ambient rotation when not dragging
+  if (!isDragging) {
+    targetRotationY += 0.004;
+  }
+
+  // Smooth lerp damping
+  productGroup.rotation.y += (targetRotationY - productGroup.rotation.y) * 0.08;
+  productGroup.rotation.x += (targetRotationX - productGroup.rotation.x) * 0.08;
+
+  // Floating bob effect
+  productGroup.position.y = Math.sin(elapsedTime * 1.5) * 0.12;
+
+  // Animate Ice cubes
+  iceCubes.forEach(item => {
+    item.mesh.rotation.x += item.rotX;
+    item.mesh.rotation.y += item.rotY;
+    item.mesh.position.y = item.startY + Math.sin(elapsedTime * 2.0 + item.offset) * 0.2;
+  });
+
+  // Animate carbonation bubbles rising
+  bubbles.forEach(b => {
+    b.mesh.position.y += b.speed;
+    if (b.mesh.position.y > b.maxY) {
+      b.mesh.position.y = b.resetY;
+    }
+  });
+
+  renderer.render(scene, camera);
+}
+
+animate();
+
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_2 -->
+<!-- Dynamic Overlay Orbit Prompt -->
+<div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-space-sm bg-surface-container-lowest/80 backdrop-blur-xl px-space-md py-space-xs rounded-full pointer-events-none shadow-2xl">
+<span class="material-symbols-outlined text-primary text-[18px] animate-spin">360</span>
+<span class="font-label-sm text-label-sm text-pure-white uppercase tracking-widest">Click &amp; Drag to Rotate 360°</span>
+</div>
+<!-- Hotspot Pin #1: Cold Condensation -->
+<div class="absolute top-1/4 right-[22%] hidden md:flex items-center gap-space-xs group cursor-pointer">
+<div class="relative flex items-center justify-center w-8 h-8 rounded-full bg-primary-container/30">
+<span class="w-3 h-3 rounded-full bg-primary-container animate-ping absolute"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-pure-white relative z-10"></span>
+</div>
+<div class="p-space-xs px-space-sm rounded-lg bg-surface-container-high/90 backdrop-blur-md shadow-xl text-left transform translate-x-1 opacity-90 group-hover:opacity-100 group-hover:translate-x-2 transition-all">
+<p class="font-label-sm text-label-sm text-primary uppercase font-bold">Cold Beads</p>
+<p class="font-mono-metric text-mono-metric text-pure-white">3.2°C Surface Temp</p>
+</div>
+</div>
+<!-- Hotspot Pin #2: Contour Fluting -->
+<div class="absolute bottom-1/3 left-[20%] hidden md:flex items-center gap-space-xs group cursor-pointer">
+<div class="relative flex items-center justify-center w-8 h-8 rounded-full bg-primary-container/30">
+<span class="w-3 h-3 rounded-full bg-primary-container animate-ping absolute"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-pure-white relative z-10"></span>
+</div>
+<div class="p-space-xs px-space-sm rounded-lg bg-surface-container-high/90 backdrop-blur-md shadow-xl text-left transform -translate-x-1 opacity-90 group-hover:opacity-100 group-hover:-translate-x-2 transition-all">
+<p class="font-label-sm text-label-sm text-primary uppercase font-bold">1915 Patent</p>
+<p class="font-mono-metric text-mono-metric text-pure-white">Georgia Green Contour</p>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md mt-space-md z-10">
+<a class="px-space-xl py-space-sm rounded-lg bg-primary-container text-pure-white font-headline-sm text-headline-sm uppercase tracking-wider shadow-[0_0_30px_rgba(228,27,35,0.5)] hover:bg-secondary-container hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-space-xs" data-path="product-experience" href="#">
+<span>Explore Packaging (3D)</span>
+<span class="material-symbols-outlined text-[20px]">view_in_ar</span>
+</a>
+<a class="px-space-xl py-space-sm rounded-lg bg-surface-container-high/80 text-pure-white font-headline-sm text-headline-sm uppercase tracking-wider hover:bg-surface-bright transition-all flex items-center gap-space-xs" data-path="ingredients-nutrition" href="#">
+<span>Nutrition &amp; Ingredients</span>
+<span class="material-symbols-outlined text-[20px] text-tertiary">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Live Telemetry / Interactive Stats Banner -->
+<div class="relative z-10 w-full mt-space-xl grid grid-cols-2 md:grid-cols-4 gap-space-sm">
+<div class="bg-surface-container-lowest/80 backdrop-blur-xl p-space-md rounded-xl shadow-xl flex flex-col justify-between">
+<div class="flex items-center justify-between text-tertiary mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Energy Metric</span>
+<span class="material-symbols-outlined text-[18px] text-primary">bolt</span>
+</div>
+<p class="font-headline-md text-headline-md text-pure-white uppercase tracking-tight">44 kcal</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Per 100ml Standard Portion</span>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-xl p-space-md rounded-xl shadow-xl flex flex-col justify-between">
+<div class="flex items-center justify-between text-tertiary mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Circularity</span>
+<span class="material-symbols-outlined text-[18px] text-emerald-400">recycling</span>
+</div>
+<p class="font-headline-md text-headline-md text-pure-white uppercase tracking-tight">100% Recyclable</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Aluminum Can &amp; Glass Contour</span>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-xl p-space-md rounded-xl shadow-xl flex flex-col justify-between">
+<div class="flex items-center justify-between text-tertiary mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Certification</span>
+<div class="w-3.5 h-3.5 rounded-DEFAULT bg-surface-container flex items-center justify-center p-[2px]">
+<div class="w-2 h-2 rounded-full bg-emerald-500"></div>
+</div>
+</div>
+<p class="font-headline-md text-headline-md text-pure-white uppercase tracking-tight">Green Dot</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">100% Vegetarian Certified India</span>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-xl p-space-md rounded-xl shadow-xl flex flex-col justify-between">
+<div class="flex items-center justify-between text-tertiary mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Optimal Serve</span>
+<span class="material-symbols-outlined text-[18px] text-primary">thermostat</span>
+</div>
+<p class="font-headline-md text-headline-md text-pure-white uppercase tracking-tight">Chilled at 3°C</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Peak Carbonation Release Index</span>
+</div>
+</div>
+</section>
+<!-- SECTION 2: THE THREE ICONIC FORMATS -->
+<section class="w-full bg-surface-dim px-margin-mobile lg:px-margin py-space-xl relative overflow-hidden">
+<div class="max-w-7xl mx-auto space-y-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<div class="font-label-md text-label-md uppercase tracking-[0.2em] text-primary font-bold">Packaging Ergonomics</div>
+<h2 class="font-headline-lg text-headline-lg uppercase text-pure-white">The Three Iconic Formats</h2>
+</div>
+<p class="font-body-md text-body-md text-tertiary max-w-md">
+          Engineered for distinct moments of refreshment—from instant ice-cold snap to celebratory multi-serve sharing.
+        </p>
+</div>
+<!-- Format Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- 1: Sleek Aluminum Can -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-xl hover:shadow-[0_16px_40px_rgba(228,27,35,0.2)] transition-all flex flex-col justify-between min-h-[460px] overflow-hidden">
+<div class="absolute top-0 right-0 w-48 h-48 bg-primary-container/10 rounded-full blur-3xl pointer-events-none group-hover:scale-150 transition-transform"></div>
+<div class="relative z-10 flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-surface-container-high font-mono-metric text-mono-metric text-pure-white">FORMAT 01</span>
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">Rapid Chill</span>
+</div>
+<!-- Product Image Specimen -->
+<div class="relative z-10 my-space-md flex flex-col items-center justify-center">
+<div class="w-full h-56 rounded-lg overflow-hidden relative shadow-lg">
+<img class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Ultra high-definition macro studio photograph of an ice cold Coca-Cola 300ml aluminum can sitting on polished dark obsidian stone with realistic water beads and condensation. Ambient red studio rim lighting highlights the iconic white Spencerian Coca-Cola script logo against deep crimson metallic paint." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeGLecaUUkxggCqpCC3lx-uI3xgXxq5CA3BRSPEnBJFBrRo4LMIISamZi54s55GDMenhWNAtaLoC30q_541u6F-r_WIgSA6fEkg73P0EDPt4Q3atGHCKtRREZGIYcDeblq4YQtt-OAWcU2iSJSKhMQF2MFHezIOl1u0u07J9OSPo7-UzXt1KEzfEDqae95HWwDAwEOY7659lxDUiCgjCnIK5XoEQ1_tAIUOD2PBf4"/>
+</div>
+<div class="mt-space-sm text-center">
+<h3 class="font-headline-md text-headline-md text-pure-white uppercase">Sleek Aluminum Can</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Crisp tactile opening snap &amp; immediate frost retention.</p>
+</div>
+</div>
+<div class="relative z-10 bg-surface-container-low/90 rounded-lg p-space-sm space-y-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-tertiary">Standard India Volumes:</span>
+<span class="font-mono-metric text-mono-metric text-pure-white">180ml / 300ml / 330ml</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-tertiary">Material Index:</span>
+<span class="font-mono-metric text-mono-metric text-emerald-400">Infinitely Recyclable</span>
+</div>
+</div>
+</div>
+<!-- 2: Contour Glass Bottle -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-xl hover:shadow-[0_16px_40px_rgba(228,27,35,0.2)] transition-all flex flex-col justify-between min-h-[460px] overflow-hidden">
+<div class="absolute top-0 right-0 w-48 h-48 bg-primary-container/10 rounded-full blur-3xl pointer-events-none group-hover:scale-150 transition-transform"></div>
+<div class="relative z-10 flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-surface-container-high font-mono-metric text-mono-metric text-pure-white">FORMAT 02</span>
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">Heritage Taste</span>
+</div>
+<!-- Product Image Specimen -->
+<div class="relative z-10 my-space-md flex flex-col items-center justify-center">
+<div class="w-full h-56 rounded-lg overflow-hidden relative shadow-lg">
+<img class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Cinematic studio shot of the legendary 250ml glass Coca-Cola contour bottle with metal crown cap, dripping with real cold condensation beads, illuminated with back-lit rich caramel soda liquid glows against a clean dark charcoal environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChl4VBLydMMSADB7bTb_WPucu9YCpSje8iW5i279c7RXdXCqCFNsP0GoJsR-4e0unsT1ho5ZCfOJO1UzXio-0JBygb7iT0Z3waRsyUl75PHLbttTa6K_SFHW_yINqXqmV5cQDwXIzb5FNqSDiS_xQKeeEI9zKcQjmyec3fm8ZDZsvsxrJdUkvwsVM6KILOoervDzJlWKKiqrxaYbu-ovcmmda6OqoUNMo4j1DqfUs"/>
+</div>
+<div class="mt-space-sm text-center">
+<h3 class="font-headline-md text-headline-md text-pure-white uppercase">Glass Contour Bottle</h3>
+<p class="font-body-sm text-body-sm text-tertiary">The purest sensory vessel since 1915. Zero flavor interference.</p>
+</div>
+</div>
+<div class="relative z-10 bg-surface-container-low/90 rounded-lg p-space-sm space-y-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-tertiary">Standard India Volumes:</span>
+<span class="font-mono-metric text-mono-metric text-pure-white">200ml / 250ml / 300ml RGB</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-tertiary">Material Index:</span>
+<span class="font-mono-metric text-mono-metric text-emerald-400">Returnable Glass Bottle</span>
+</div>
+</div>
+</div>
+<!-- 3: Resealable PET Contour -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-xl hover:shadow-[0_16px_40px_rgba(228,27,35,0.2)] transition-all flex flex-col justify-between min-h-[460px] overflow-hidden">
+<div class="absolute top-0 right-0 w-48 h-48 bg-primary-container/10 rounded-full blur-3xl pointer-events-none group-hover:scale-150 transition-transform"></div>
+<div class="relative z-10 flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-surface-container-high font-mono-metric text-mono-metric text-pure-white">FORMAT 03</span>
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">On-The-Move</span>
+</div>
+<!-- Product Image Specimen -->
+<div class="relative z-10 my-space-md flex flex-col items-center justify-center">
+<div class="w-full h-56 rounded-lg overflow-hidden relative shadow-lg">
+<img class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Modern premium studio shot of a 750ml chilled Coca-Cola PET bottle with signature red cap and white wave ribbon label, frosted cold droplets reflecting red and amber neon ambient lights in a luxurious dark contemporary set." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4og843dnUBDVG1wY4bttA-ZpCI3LkVEGl47FvUDam8DObNaG18xZoP0GR0gKRYMchBFrisMnJha0xNsE2RzpIsXWktbay_E0uYw-GIoKgMD8ArpUNsveps3jbU2551pn8oOaewXEiNkGpzdA6OgDiuVZyMZWZjqlvezD0vlPxDO2TcGCBATPl5J62DPwx4cMotWigHlc92ARhNVY-cdEHfVB_BBfBxC65cm1WTDI"/>
+</div>
+<div class="mt-space-sm text-center">
+<h3 class="font-headline-md text-headline-md text-pure-white uppercase">Resealable PET Contour</h3>
+<p class="font-body-sm text-body-sm text-tertiary">High-pressure retention barrier keeping fizz active everywhere.</p>
+</div>
+</div>
+<div class="relative z-10 bg-surface-container-low/90 rounded-lg p-space-sm space-y-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-tertiary">Standard India Volumes:</span>
+<span class="font-mono-metric text-mono-metric text-pure-white">250ml / 600ml / 1.25L / 2.25L</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-tertiary">Material Index:</span>
+<span class="font-mono-metric text-mono-metric text-emerald-400">100% Recyclable Polymer</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: SENSORY DIMENSION GRID -->
+<section class="w-full bg-background px-margin-mobile lg:px-margin py-space-xl relative">
+<div class="max-w-7xl mx-auto space-y-space-xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.25em] text-primary">Micro-Sensory Formulation</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-pure-white">The Four Dimensions of Taste</h2>
+<p class="font-body-md text-body-md text-tertiary">
+          A synchronized collision of acoustic effervescence, balanced caramel sweetness, and pure cold temperature.
+        </p>
+</div>
+<!-- Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Tile 1: Chilled Condensation -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-lg flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">device_thermostat</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-pure-white">3°C Serve Threshold</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              At precise low temperatures, liquid gas solubility reaches its peak equilibrium, preserving signature bite.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/50 p-space-sm rounded">
+<span class="font-mono-metric text-mono-metric text-pure-white">Optimum CO2 Retention: 3.7 Vol</span>
+</div>
+</div>
+<!-- Tile 2: Effervescent Fizz Sound Visualization -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-lg flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">graphic_eq</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-pure-white">Effervescent Acoustics</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              The acoustic frequency of micro-bubbles bursting creates our trademark auditory refreshment cue.
+            </p>
+</div>
+<!-- Inline Acoustic Frequency SVG -->
+<div class="mt-space-md p-space-xs bg-surface-container-lowest/50 rounded flex items-center justify-center">
+<svg class="w-full h-10 text-primary" fill="none" viewbox="0 0 200 40">
+<path d="M0 20 Q10 5, 20 20 T40 20 T60 2 T80 38 T100 20 T120 10 T140 30 T160 20 T180 5 T200 20" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+</div>
+</div>
+<!-- Tile 3: Signature Caramel Colour 150d -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-lg flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">palette</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-pure-white">Caramel (INS 150d)</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              High-purity roasted caramel conferring deep amber opulence and nuanced toasted botanical undertones.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/50 p-space-sm rounded flex items-center justify-between">
+<span class="font-mono-metric text-mono-metric text-pure-white">Deep Obsidian / Ruby</span>
+<div class="w-4 h-4 rounded-full bg-cola-brown"></div>
+</div>
+</div>
+<!-- Tile 4: Natural Flavours & Acidity -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-lg flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">science</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-pure-white">Secret Botanical Blend</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              Proprietary botanical essence harmonized with regulated acidity regulator (INS 338) for clean thirst-quench.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/50 p-space-sm rounded">
+<span class="font-mono-metric text-mono-metric text-pure-white">Natural Flavourings 100%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: DIRECT WHERE TO BUY IN INDIA -->
+<section class="w-full bg-surface-dim px-margin-mobile lg:px-margin py-space-xl relative">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary font-bold">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+            Instant Delivery • 10 Minutes To Doorstep
+          </div>
+<h2 class="font-headline-lg text-headline-lg uppercase text-pure-white">Get Chilled Coca-Cola in India</h2>
+</div>
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary hover:text-pure-white transition-colors" data-path="where-to-buy" href="#">
+<span>Find Nearby Physical Stores</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Partner Quick Delivery Grid -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-space-md">
+<!-- Partner: Swiggy Instamart -->
+<a class="group bg-surface-container-lowest hover:bg-surface-container-high p-space-md rounded-xl transition-all shadow-md flex flex-col justify-between h-40" href="https://www.swiggy.com/instamart" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-emerald-400">Verified</span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary transition-colors text-[20px]">north_east</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-pure-white">Swiggy Instamart</h4>
+<p class="font-label-sm text-label-sm text-tertiary">10-15 Min Chilled Delivery</p>
+</div>
+</a>
+<!-- Partner: Blinkit -->
+<a class="group bg-surface-container-lowest hover:bg-surface-container-high p-space-md rounded-xl transition-all shadow-md flex flex-col justify-between h-40" href="https://blinkit.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-emerald-400">Verified</span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary transition-colors text-[20px]">north_east</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-pure-white">Blinkit</h4>
+<p class="font-label-sm text-label-sm text-tertiary">Quick Commerce Express</p>
+</div>
+</a>
+<!-- Partner: BigBasket / BB Now -->
+<a class="group bg-surface-container-lowest hover:bg-surface-container-high p-space-md rounded-xl transition-all shadow-md flex flex-col justify-between h-40" href="https://www.bigbasket.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-emerald-400">Verified</span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary transition-colors text-[20px]">north_east</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-pure-white">BigBasket (bbnow)</h4>
+<p class="font-label-sm text-label-sm text-tertiary">Pack Crates &amp; Multipacks</p>
+</div>
+</a>
+<!-- Partner: JioMart -->
+<a class="group bg-surface-container-lowest hover:bg-surface-container-high p-space-md rounded-xl transition-all shadow-md flex flex-col justify-between h-40" href="https://www.jiomart.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-emerald-400">Verified</span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary transition-colors text-[20px]">north_east</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-pure-white">JioMart</h4>
+<p class="font-label-sm text-label-sm text-tertiary">Pan-India Direct Fulfillment</p>
+</div>
+</a>
+<!-- Partner: Amazon Fresh -->
+<a class="group bg-surface-container-lowest hover:bg-surface-container-high p-space-md rounded-xl transition-all shadow-md flex flex-col justify-between h-40 col-span-2 sm:col-span-1" href="https://www.amazon.in" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-emerald-400">Verified</span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary transition-colors text-[20px]">north_east</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-pure-white">Amazon Fresh</h4>
+<p class="font-label-sm text-label-sm text-tertiary">Scheduled Slots &amp; Bundles</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- SECTION 5: INTERACTIVE HERITAGE & SERVING TEASERS -->
+<section class="w-full bg-background px-margin-mobile lg:px-margin py-space-xl relative">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Teaser 1: Our Story -->
+<a class="group relative rounded-xl overflow-hidden bg-surface-container-low min-h-[380px] p-space-lg flex flex-col justify-between shadow-xl" data-path="our-story" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-40 mix-blend-luminosity" data-alt="Vintage black and white archival photograph of the historic 1886 Jacob's Pharmacy in Atlanta Georgia where Coca-Cola was first formulated, with subtle warm sepia tones and cinematic low key framing." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDZuKfQ4MUzRGJBKLDnj61apZHy4qaWgH3R_YobdArZFGNeozSttDOckHoWd9SwT0n35DTuA4rQ3MeXndujp01YUi5e57aL24ikws4jLhSr4TvgN1Goos6I1auwcNpu_9UhGjsbmAznSMApYnFvqw5MXGARWv1V-iIgqn2Qs2EQKaiKauEitfVedsr7jYEMF2ZB4SDKGyiWl9_JgVWuXlNBio5fklZWcl3lax2vey4')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/60 to-transparent"></div>
+<div class="relative z-10">
+<span class="px-space-sm py-1 rounded bg-primary-container text-pure-white font-label-sm text-label-sm uppercase font-bold tracking-wider">Heritage Vault</span>
+</div>
+<div class="relative z-10 space-y-space-xs">
+<h3 class="font-headline-lg text-headline-lg uppercase text-pure-white">From Pemberton's Kettle to Global Legend</h3>
+<p class="font-body-md text-body-md text-tertiary max-w-md">
+            Uncover the timeline from May 8, 1886 in Atlanta to the iconic contour bottle patent and India’s beloved return.
+          </p>
+<div class="inline-flex items-center gap-space-xs pt-space-xs text-primary group-hover:text-pure-white font-headline-sm text-headline-sm uppercase tracking-wider transition-colors">
+<span>Read The Story</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Teaser 2: Serving Ideas & Perfect Pours -->
+<a class="group relative rounded-xl overflow-hidden bg-surface-container-low min-h-[380px] p-space-lg flex flex-col justify-between shadow-xl" data-path="serving-ideas" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-40 mix-blend-luminosity" data-alt="High-contrast close up of a heavy crystal tumbler filled with clear ice cubes, fresh lime wedges, and sparkling dark Coca-Cola with effervescent carbonation fizzing at the rim against dark slate backdrop with red ambient highlights." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuADNXscJ8oe16anPrpfs2r-YPicWBrbIAjvJWonig1y3cNrCDbibQJOoz2pStKnt9469YVaWM-GznxgH5CVlN9kGRGvmjDcwPD74kRznGP6HRdc85xrSSAvHHaE0THMGfHqRZbpDDlXsbtIr-mW6A8DaodRZLKG5-Tzus80xutx9x7SW2XUck_DqlcREjad-YccnlzAi1Zsl4cI3JlB-r8KqkMS8A7iIatUctawhkk')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/60 to-transparent"></div>
+<div class="relative z-10">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-label-sm text-label-sm uppercase font-bold tracking-wider">Mixology &amp; Pairings</span>
+</div>
+<div class="relative z-10 space-y-space-xs">
+<h3 class="font-headline-lg text-headline-lg uppercase text-pure-white">The Perfect Serve Ritual</h3>
+<p class="font-body-md text-body-md text-tertiary max-w-md">
+            A precise 45-degree angled glass pour over crystalline cubed ice with aromatic citrus twists and street food pairings.
+          </p>
+<div class="inline-flex items-center gap-space-xs pt-space-xs text-primary group-hover:text-pure-white font-headline-sm text-headline-sm uppercase tracking-wider transition-colors">
+<span>Explore Recipes</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</div>
+</div>
+</a>
+</div>
+</section>
+<!-- Interactive Controls Micro-Logic -->
+<script>
+    (function initHeroMicroInteractions() {
+      const condBtn = document.getElementById('toggle-condensation');
+      const condStatus = document.getElementById('cond-status');
+      let condensationHigh = true;
+
+      if (condBtn && condStatus) {
+        condBtn.addEventListener('click', () => {
+          condensationHigh = !condensationHigh;
+          condStatus.textContent = condensationHigh ? 'Condensation: MAX' : 'Condensation: DRY';
+          condBtn.classList.toggle('text-pure-white', condensationHigh);
+          condBtn.classList.toggle('text-tertiary', !condensationHigh);
+        });
+      }
+
+      const resetBtn = document.getElementById('btn-reset-view');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          const scene = document.querySelector('threejs-scene');
+          if (scene) {
+            scene.style.transform = 'scale(0.98)';
+            setTimeout(() => { scene.style.transform = 'scale(1)'; }, 180);
+          }
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="w-full px-margin-mobile lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-space-xl mb-space-xl"><div class="xl:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="Coca-Cola Classic Script Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U8hbI0svt7-kBdpFYpk58zMftl7UH-o9nVT3hx5D3oFwQqDgtXBlXgkNTDgjp6k_A-yWAHFvQ6DAcW4yKnmeKJx4NwmhRqfBiWyiXfv3QTVcZUPSWPmCRig4n8f3KZ-YL2BlMDHjDzpAGjFF8md6qlJikguTfHSe_gZmfcjduZif6emItoUIHu_e67qU2bi_7jEfG1tkxhvESjdkEOZD0ZGfZW4lSwezNKzCYCSWw4"/><span class="font-headline-sm text-headline-sm text-pure-white tracking-widest uppercase">Original Taste</span></div><p class="font-body-sm text-body-sm text-tertiary max-w-md">Experience the timeless refreshment of real Coca-Cola. Crafted with natural flavours, iconic carbonation, and over a century of genuine beverage craftsmanship.</p><div class="flex items-center gap-space-md pt-space-xs"><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-high/70"><div class="w-3.5 h-3.5 rounded-DEFAULT bg-surface-container-lowest flex items-center justify-center p-[2px]"><div class="w-2 h-2 rounded-full bg-emerald-500"></div></div><span class="font-label-sm text-label-sm uppercase text-on-surface">100% Vegetarian</span></div><div class="px-space-sm py-space-xs rounded-lg bg-surface-container-high/70 font-mono-metric text-mono-metric text-pure-white"><span class="font-bold text-primary">44 kcal</span> / 100ml</div></div></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-pure-white uppercase tracking-wider">Exploration</h3><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-pure-white transition-colors" data-path="home" href="#">Home Showcase</a></li><li><a class="hover:text-pure-white transition-colors" data-path="product-experience" href="#">3D Product Experience</a></li><li><a class="hover:text-pure-white transition-colors" data-path="ingredients-nutrition" href="#">Ingredients &amp; Nutrition</a></li><li><a class="hover:text-pure-white transition-colors" data-path="serving-ideas" href="#">Perfect Serve &amp; Recipes</a></li><li><a class="hover:text-pure-white transition-colors" data-path="gallery" href="#">High-Res Gallery</a></li></ul></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-pure-white uppercase tracking-wider">Company &amp; Help</h3><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-pure-white transition-colors" data-path="our-story" href="#">Our Heritage Story</a></li><li><a class="hover:text-pure-white transition-colors" data-path="where-to-buy" href="#">Store Locator (India)</a></li><li><a class="hover:text-pure-white transition-colors" data-path="faq" href="#">Frequently Asked Questions</a></li><li><a class="hover:text-pure-white transition-colors" data-path="contact" href="#">Consumer Response Care</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xs" data-path="admin-portal" href="#"><span class="material-symbols-outlined text-[14px]">lock</span>Admin Portal</a></li></ul></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-pure-white uppercase tracking-wider">Stay Refreshed</h3><p class="font-body-sm text-body-sm text-tertiary">Join our newsletter for exclusive experiential drops, collectible bottle editions, and music festivals.</p><div class="flex flex-col sm:flex-row gap-space-xs mt-space-sm"><input class="w-full px-space-sm py-space-xs rounded-lg bg-surface-container-high text-pure-white font-body-sm text-body-sm placeholder:text-tertiary-container focus:outline-none" placeholder="Enter your email" type="email"/><button class="px-space-md py-space-xs rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md uppercase tracking-wider font-bold shrink-0 hover:bg-secondary-container transition-colors" type="button">Subscribe</button></div><p class="font-label-sm text-label-sm text-tertiary-container">We respect your privacy. Unsubscribe anytime.</p></div></div><div class="py-space-md my-space-md bg-surface-container-low/60 rounded-lg p-space-md"><div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[28px]">recycling</span><div><p class="font-label-md text-label-md font-bold uppercase text-pure-white tracking-wider">World Without Waste &amp; Recycling Pledge</p><p class="font-body-sm text-body-sm text-tertiary">Our bottles and cans are 100% recyclable. Return and recycle to support circular bottling in India.</p></div></div><div class="flex items-center gap-space-md text-tertiary font-label-sm text-label-sm"><span class="px-space-sm py-space-xs bg-surface-container-high rounded">FSSAI Lic. No. 10012011000168</span><span class="px-space-sm py-space-xs bg-surface-container-high rounded">BIS / IS 2346 Certified</span></div></div></div><div class="flex flex-col md:flex-row items-center justify-between gap-space-md pt-space-md font-label-sm text-label-sm text-tertiary"><p>© 2025 The Coca-Cola Company. All Rights Reserved. Coca-Cola, Taste the Feeling, and the Contour Bottle are registered trademarks.</p><div class="flex flex-wrap items-center gap-space-md"><a class="hover:text-on-surface transition-colors" data-path="contact" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="faq" href="#">Terms of Use</a><a class="hover:text-primary transition-colors" data-path="admin-portal" href="#">Operator Console</a></div></div></div></footer></body></html>
